@@ -11,6 +11,7 @@ function Navbar() {
         <NavLink to="/lessons">Lessons</NavLink>
         <NavLink to="/bayes-theorem">Bayes</NavLink>
         <NavLink to="/perfect-secrecy">Perfect Secrecy</NavLink>
+        <NavLink to="/modes">CBC/CTR</NavLink>
         <NavLink to="/attack-simulator">Attack Simulator</NavLink>
         <NavLink to="/practice">Practice</NavLink>
       </div>
