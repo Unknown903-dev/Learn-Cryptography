@@ -1,5 +1,6 @@
 # Learn-Cryptography
 
+```text
 cipherquest/
 ├── public/
 │   └── favicon.svg
@@ -25,3 +26,4 @@ cipherquest/
 │   └── index.css
 ├── package.json
 └── README.md
+```
