@@ -348,4 +348,121 @@ select {
   .locked-card {
     opacity: 0.72;
   }
+  .mode-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .mode-button {
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: rgba(2, 6, 23, 0.72);
+    color: #cbd5e1;
+    border-radius: 999px;
+    padding: 12px 18px;
+    font-weight: 800;
+  }
+
+  .mode-button:hover,
+  .mode-button.active {
+    border-color: rgba(56, 189, 248, 0.65);
+    color: #7dd3fc;
+    background: rgba(56, 189, 248, 0.08);
+  }
+
+  .mode-section {
+    margin-top: 12px;
+  }
+
+  .mode-header {
+    margin-bottom: 22px;
+  }
+
+  .mode-header p {
+    color: #cbd5e1;
+    line-height: 1.7;
+  }
+
+  .flow-diagram {
+    display: grid;
+    gap: 18px;
+    margin: 26px 0;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  .flow-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 820px;
+  }
+
+  .flow-box {
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    background: rgba(2, 6, 23, 0.76);
+    color: #f8fafc;
+    border-radius: 16px;
+    padding: 14px 12px;
+    font-weight: 800;
+    line-height: 1.35;
+  }
+
+  .flow-arrow {
+    color: #7dd3fc;
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  .iv-box {
+    border-color: rgba(168, 85, 247, 0.45);
+    color: #d8b4fe;
+  }
+
+  .xor-box {
+    border-color: rgba(56, 189, 248, 0.45);
+    color: #7dd3fc;
+  }
+
+  .cipher-box {
+    border-color: rgba(34, 197, 94, 0.45);
+    color: #86efac;
+  }
+
+  .output-box {
+    border-color: rgba(251, 191, 36, 0.45);
+    color: #fde68a;
+  }
+
+  .pad-box {
+    border-color: rgba(244, 114, 182, 0.45);
+    color: #f9a8d4;
+  }
+
+  .warning-box {
+    background: rgba(127, 29, 29, 0.22);
+    border: 1px solid rgba(248, 113, 113, 0.35);
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 22px;
+  }
+
+  .warning-box p {
+    color: #fecaca;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 780px) {
+    .flow-row {
+      min-width: 760px;
+    }
+
+    .flow-box {
+      min-width: 110px;
+      font-size: 0.9rem;
+    }
+  }
 }
