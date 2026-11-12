@@ -7,6 +7,10 @@ underlying probability or cryptographic operation changes.
 
 Visit the live site at [learncrypto.z3rø.com](https://learncrypto.z3rø.com).
 
+## Repository traffic
+
+![Repository views and clones](.github/assets/repository-traffic.svg)
+
 > **Educational use only:** The examples intentionally simplify or break
 > cryptographic schemes to teach their security properties. They are not
 > production encryption implementations.
@@ -38,14 +42,12 @@ Visit the live site at [learncrypto.z3rø.com](https://learncrypto.z3rø.com).
 The app has no backend, accounts, cookies, analytics, or learner tracking. Quiz
 and lab state stays in the current browser session.
 
-## Repository traffic dashboard
+## Repository traffic collection
 
 GitHub exposes only a rolling 14-day window of repository views and full clones.
 The `Collect repository traffic` workflow runs daily, retains that data, and
 regenerates the graph below so the README can show history from the first
 collection onward. Tracking begins on November 9, 2026.
-
-![Repository views and clones](.github/assets/repository-traffic.svg)
 
 To enable collection:
 
