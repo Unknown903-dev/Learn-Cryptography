@@ -1,5 +1,14 @@
 # React + Vite
 
+## Dependency security
+
+The package lock pins audited dependency versions. Use `npm ci` for reproducible
+installs, and run `npm audit`, `npm run lint`, and `npm run build` after updates.
+
+The `minimatch` override selects patched version 11 for ESLint 10's dependency
+chain (GHSA-g3hv-75wg-m249). Remove the override when upstream dependencies
+require a patched version themselves; validate lint behavior when changing it.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
