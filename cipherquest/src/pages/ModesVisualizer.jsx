@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function ModesVisualizer() {
   const [mode, setMode] = useState("ctr");
@@ -212,6 +213,12 @@ function CTRMode() {
           Another advantage is that each pad block can be computed independently.
           That makes CTR easier to parallelize than CBC.
         </p>
+      </div>
+
+      <div className="lesson-navigation">
+        <Link className="btn primary" to="/macs">
+          Next lesson: Detect tampering with MACs →
+        </Link>
       </div>
     </div>
   );

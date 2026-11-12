@@ -71,9 +71,9 @@ const lessons = [
     title: "MACs",
     difficulty: "Advanced",
     type: "Authentication",
-    description: "Study message authentication and forgery resistance.",
-    path: null,
-    status: "Coming Soon",
+    description: "Tamper with CTR-style ciphertext and detect it using HMAC.",
+    path: "/macs",
+    status: "Lab Available",
   },
   {
     title: "Hash Functions",
