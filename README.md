@@ -43,7 +43,7 @@ and lab state stays in the current browser session.
 GitHub exposes only a rolling 14-day window of repository views and full clones.
 The `Collect repository traffic` workflow runs daily, retains that data, and
 regenerates the graph below so the README can show history from the first
-collection onward.
+collection onward. Tracking begins on November 9, 2026.
 
 ![Repository views and clones](.github/assets/repository-traffic.svg)
 
