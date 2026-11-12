@@ -4,7 +4,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        Learn Crypto
+        <img className="logo-mark" src="/favicon.svg" alt="" aria-hidden="true" />
+        <span>Learn Crypto</span>
       </Link>
 
       <div className="nav-links">
