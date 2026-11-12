@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title description">
+  <title id="title">Learn Cryptography repository traffic</title>
+  <desc id="description">Traffic collection is configured and awaiting its first run.</desc>
+  <rect width="1000" height="300" rx="18" fill="#080b14"/>
+  <rect x="1" y="1" width="998" height="298" rx="17" fill="none" stroke="#334155"/>
+  <text x="48" y="68" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="28" font-weight="800">Repository traffic</text>
+  <text x="48" y="103" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="16">Views and full clones from GitHub</text>
+  <rect x="48" y="140" width="904" height="104" rx="14" fill="#0f172a" stroke="#334155"/>
+  <text x="500" y="184" fill="#7dd3fc" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Traffic collection is ready</text>
+  <text x="500" y="216" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="15" text-anchor="middle">Run the Collect repository traffic workflow to populate this graph.</text>
+</svg>

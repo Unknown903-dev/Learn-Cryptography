@@ -25,6 +25,7 @@ Visit the live site at [learncrypto.z3rø.com](https://learncrypto.z3rø.com).
 | Message Authentication Codes | Tamper with CTR-style ciphertext and verify HMAC tags | `/macs` |
 | Hash Functions | Compare SHA-256 outputs and find an 8-bit-prefix collision | `/hash-functions` |
 | Practice Mode | Take mixed or topic-filtered quizzes with lesson review links | `/practice` |
+| Resources | Browse and search curated external learning materials | `/resources` |
 
 ## Technology
 
@@ -34,8 +35,28 @@ Visit the live site at [learncrypto.z3rø.com](https://learncrypto.z3rø.com).
 - Browser Web Crypto for random pads, SHA-256, and HMAC-SHA-256
 - Plain CSS with responsive and keyboard-accessible controls
 
-The app has no backend, accounts, cookies, analytics, or stored learner data.
-Quiz and lab state stays in the current browser session.
+The app has no backend, accounts, cookies, analytics, or learner tracking. Quiz
+and lab state stays in the current browser session.
+
+## Repository traffic dashboard
+
+GitHub exposes only a rolling 14-day window of repository views and full clones.
+The `Collect repository traffic` workflow runs daily, retains that data, and
+regenerates the graph below so the README can show history from the first
+collection onward.
+
+![Repository views and clones](.github/assets/repository-traffic.svg)
+
+To enable collection:
+
+1. Create a fine-grained GitHub personal access token limited to this repository
+   with **Administration: Read-only** permission.
+2. Add it as a repository Actions secret named `TRAFFIC_TOKEN`.
+3. Open **Actions → Collect repository traffic → Run workflow** once.
+
+The secret is used only by GitHub Actions and is never exposed in the README or
+website. The workflow uses the repository `GITHUB_TOKEN` with `contents: write`
+only to commit the updated JSON history and SVG graph.
 
 ## Run locally
 
@@ -71,6 +92,7 @@ Run these commands inside `cipherquest/`:
 
 ```text
 Learn-Cryptography/
+├── .github/             # scheduled repository traffic collector
 ├── README.md
 └── cipherquest/
     ├── public/           # favicon and deployment security headers
