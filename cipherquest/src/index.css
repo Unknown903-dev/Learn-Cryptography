@@ -284,6 +284,224 @@ select {
   border-color: rgba(56, 189, 248, 0.35);
 }
 
+/* Perfect secrecy inference lab */
+
+.inference-lab {
+  margin-top: 32px;
+}
+
+.lab-controls,
+.probability-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 24px 0;
+}
+
+.key-model-picker {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 24px 0;
+  padding: 0;
+  border: 0;
+}
+
+.key-model-picker legend {
+  grid-column: 1 / -1;
+  margin-bottom: 10px;
+  color: #e2e8f0;
+  font-weight: 800;
+}
+
+.key-model-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: rgba(2, 6, 23, 0.7);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.key-model-option:hover,
+.key-model-option.selected {
+  border-color: rgba(56, 189, 248, 0.65);
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.key-model-option:focus-within {
+  outline: 2px solid #7dd3fc;
+  outline-offset: 3px;
+}
+
+.key-model-option input {
+  margin: 4px 0 0;
+  accent-color: #38bdf8;
+}
+
+.key-model-option span,
+.key-model-option small {
+  display: block;
+}
+
+.key-model-option small {
+  margin-top: 7px;
+  color: #94a3b8;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.probability-comparison {
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.probability-card {
+  padding: 20px;
+  background: rgba(2, 6, 23, 0.76);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 18px;
+}
+
+.probability-card h3 {
+  margin: 8px 0 16px;
+}
+
+.probability-card p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.posterior-card {
+  border-color: rgba(56, 189, 248, 0.45);
+}
+
+.comparison-label {
+  color: #7dd3fc;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.comparison-arrow {
+  align-self: center;
+  color: #7dd3fc;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.probability-bar {
+  height: 8px;
+  overflow: hidden;
+  background: rgba(148, 163, 184, 0.18);
+  border-radius: 999px;
+}
+
+.probability-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #38bdf8, #a855f7);
+  border-radius: inherit;
+  transition: width 0.25s ease;
+}
+
+.lab-conclusion,
+.prediction-box {
+  margin: 24px 0;
+  padding: 18px;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.08);
+  border-radius: 16px;
+}
+
+.lab-conclusion p {
+  margin-bottom: 0;
+}
+
+.outcome-details {
+  margin: 24px 0;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 16px;
+  background: rgba(2, 6, 23, 0.45);
+}
+
+.outcome-details summary {
+  padding: 16px 18px;
+  color: #7dd3fc;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.outcome-details summary:focus-visible,
+.answer-button:focus-visible,
+.inline-link:focus-visible {
+  outline: 2px solid #7dd3fc;
+  outline-offset: 3px;
+}
+
+.outcome-table-wrap {
+  overflow-x: auto;
+  padding: 0 18px 18px;
+}
+
+.outcome-table {
+  width: 100%;
+  min-width: 540px;
+  border-collapse: collapse;
+}
+
+.outcome-table th,
+.outcome-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  text-align: left;
+}
+
+.outcome-table th {
+  color: #7dd3fc;
+}
+
+.bayes-work {
+  margin-top: 28px;
+}
+
+.bayes-work .formula-box {
+  margin-bottom: 12px;
+  white-space: normal;
+}
+
+.inline-link {
+  color: #7dd3fc;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prediction-box {
+  border-color: rgba(168, 85, 247, 0.4);
+  background: rgba(168, 85, 247, 0.08);
+}
+
+.prediction-feedback {
+  margin: 16px 0 0;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.prediction-feedback.correct {
+  color: #bbf7d0;
+  background: rgba(34, 197, 94, 0.12);
+}
+
+.prediction-feedback.incorrect {
+  color: #fecaca;
+  background: rgba(248, 113, 113, 0.12);
+}
+
 /* Lesson card routing states */
 
 .lesson-card-link {
@@ -549,8 +767,16 @@ select {
 @media (max-width: 780px) {
   .feature-grid,
   .lesson-grid,
-  .controls {
+  .controls,
+  .lab-controls,
+  .key-model-picker,
+  .probability-comparison {
     grid-template-columns: 1fr;
+  }
+
+  .comparison-arrow {
+    justify-self: center;
+    transform: rotate(90deg);
   }
 
   .page-container {

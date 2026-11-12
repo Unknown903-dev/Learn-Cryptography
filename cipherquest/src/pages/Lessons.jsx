@@ -23,9 +23,9 @@ const lessons = [
     difficulty: "Intermediate",
     type: "Proof",
     description:
-      "Learn what it means for ciphertext to reveal no information.",
+      "Run a guided lab to see what ciphertext reveals under secure and insecure keys.",
     path: "/perfect-secrecy",
-    status: "Available",
+    status: "Lab Available",
   },
   {
     title: "One-Time Pad",
