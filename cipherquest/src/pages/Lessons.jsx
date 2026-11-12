@@ -79,9 +79,9 @@ const lessons = [
     title: "Hash Functions",
     difficulty: "Intermediate",
     type: "Integrity",
-    description: "Understand collisions, preimage resistance, and hashing.",
-    path: null,
-    status: "Coming Soon",
+    description: "Compare SHA-256 digests and explore collisions and integrity.",
+    path: "/hash-functions",
+    status: "Lab Available",
   },
 ];
 

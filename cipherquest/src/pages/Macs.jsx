@@ -312,7 +312,9 @@ function Macs() {
 
         <div className="lesson-navigation">
           <Link className="btn secondary" to="/modes">← Review CTR mode</Link>
-          <Link className="btn primary" to="/lessons">Back to all lessons</Link>
+          <Link className="btn primary" to="/hash-functions">
+            Next lesson: Hash Functions →
+          </Link>
         </div>
       </div>
     </section>
