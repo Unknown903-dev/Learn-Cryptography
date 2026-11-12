@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import Lessons from "./pages/Lessons";
+import ProbabilityBasics from "./pages/ProbabilityBasics";
 import BayesTheorem from "./pages/BayesTheorem";
 import PerfectSecrecy from "./pages/PerfectSecrecy";
 import OneTimePad from "./pages/OneTimePad";
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lessons" element={<Lessons />} />
+          <Route path="/probability-basics" element={<ProbabilityBasics />} />
           <Route path="/bayes-theorem" element={<BayesTheorem />} />
           <Route path="/perfect-secrecy" element={<PerfectSecrecy />} />
           <Route path="/one-time-pad" element={<OneTimePad />} />
