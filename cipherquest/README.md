@@ -1,25 +1,44 @@
-# React + Vite
+# Learn Crypto web app
+
+This directory contains the React/Vite application for
+[Learn Crypto](https://learncrypto.z3rø.com). For the lesson catalog, project
+overview, structure, and deployment notes, see the
+[repository README](../README.md).
+
+## Development
+
+```bash
+npm ci
+npm run dev
+```
+
+Vite normally serves the app at [http://localhost:5173](http://localhost:5173).
+
+Before committing changes, run:
+
+```bash
+npm run lint
+npm run build
+npm audit
+```
+
+## Scripts
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the static application into `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Run ESLint across the source tree |
 
 ## Dependency security
 
-The package lock pins audited dependency versions. Use `npm ci` for reproducible
-installs, and run `npm audit`, `npm run lint`, and `npm run build` after updates.
+Use `npm ci` so local and deployment installs follow `package-lock.json`.
+The `minimatch` override in `package.json` selects the patched version 11 for
+ESLint 10's dependency chain (GHSA-g3hv-75wg-m249). Remove the override once
+upstream dependencies require a patched version directly, and rerun lint,
+build, and audit after changing it.
 
-The `minimatch` override selects patched version 11 for ESLint 10's dependency
-chain (GHSA-g3hv-75wg-m249). Remove the override when upstream dependencies
-require a patched version themselves; validate lint behavior when changing it.
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment security headers are defined in [`public/_headers`](public/_headers).
+The app is educational and client-side; its simplified cryptographic examples
+must not be reused as production security code.
