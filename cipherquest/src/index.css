@@ -1438,6 +1438,146 @@ button:disabled {
   white-space: normal;
 }
 
+/* Practice review quiz */
+
+.practice-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.practice-score {
+  display: grid;
+  gap: 5px;
+  min-width: 170px;
+  padding: 12px 16px;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  background: rgba(56, 189, 248, 0.07);
+  border-radius: 14px;
+}
+
+.practice-score span {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.practice-score strong {
+  color: #7dd3fc;
+}
+
+.quiz-card {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.quiz-progress-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 300px);
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.quiz-progress-row .badge {
+  margin-bottom: 6px;
+}
+
+.quiz-progress-row p {
+  margin: 0;
+}
+
+.quiz-progress-row progress {
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  accent-color: #38bdf8;
+}
+
+.quiz-options .answer-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.quiz-options .answer-button strong {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.quiz-options .answer-button:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.quiz-options .correct-answer {
+  border-color: rgba(34, 197, 94, 0.7);
+  background: rgba(34, 197, 94, 0.12);
+  color: #bbf7d0;
+}
+
+.quiz-options .incorrect-answer {
+  border-color: rgba(248, 113, 113, 0.65);
+  background: rgba(248, 113, 113, 0.1);
+  color: #fecaca;
+}
+
+.quiz-explanation {
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.quiz-results {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.quiz-results > h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 12px;
+}
+
+.missed-question-list {
+  display: grid;
+  gap: 14px;
+  margin: 26px 0;
+}
+
+.missed-question-list > h3 {
+  margin-bottom: 0;
+}
+
+.missed-question-list article {
+  padding: 18px;
+  border: 1px solid rgba(248, 113, 113, 0.3);
+  background: rgba(248, 113, 113, 0.06);
+  border-radius: 16px;
+}
+
+.missed-question-list h4 {
+  margin: 0 0 12px;
+  color: #f8fafc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.missed-question-list p {
+  margin: 6px 0;
+}
+
+.missed-question-list .inline-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
 /* Responsive styles */
 
 @media (max-width: 900px) {
@@ -1485,6 +1625,15 @@ button:disabled {
   .probability-controls,
   .probability-counts {
     grid-template-columns: 1fr;
+  }
+
+  .practice-toolbar,
+  .quiz-progress-row {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-score {
+    min-width: 0;
   }
 
   .cpa-round-header {
