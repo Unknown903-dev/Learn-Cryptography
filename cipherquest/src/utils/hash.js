@@ -29,7 +29,7 @@ export function countDifferingBits(left, right) {
 }
 
 export async function findEightBitCollision(
-  seed = "cipherquest",
+  seed = "learn-crypto",
   shouldContinue = () => true,
 ) {
   const prefixes = new Map();

@@ -9,7 +9,7 @@ function Home() {
         <h1>Learn cryptography by breaking it, proving it, and visualizing it.</h1>
 
         <p className="hero-text">
-          CipherQuest helps students understand cryptography through guided
+          Learn Crypto helps students understand cryptography through guided
           proofs, attack simulations, visual demos, and exam-style practice.
         </p>
 

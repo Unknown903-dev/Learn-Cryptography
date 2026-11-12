@@ -41,10 +41,20 @@ button {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 900;
   font-size: 1.4rem;
   letter-spacing: 0.03em;
   color: #38bdf8;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 6px 14px rgba(56, 189, 248, 0.22));
 }
 
 .nav-links {
@@ -67,6 +77,19 @@ button {
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
   padding: 48px 0 80px;
+}
+
+.site-footer {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 0 0 32px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
 }
 
 .hero {

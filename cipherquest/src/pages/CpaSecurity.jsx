@@ -51,7 +51,15 @@ function CpaSecurity() {
       return;
     }
 
-    setRound((currentRound) => ({
+    if (round.queries.length >= 100) {
+      setOracleError("This round has reached 100 queries. Start a new round to clear the history.");
+      return;
+    }
+
+    setRound((currentRound) => {
+      // Check again against the latest state when React batches rapid queries.
+      if (currentRound.queries.length >= 100) return currentRound;
+      return {
       ...currentRound,
       queries: [
         ...currentRound.queries,
@@ -61,7 +69,8 @@ function CpaSecurity() {
           ciphertext: encryptInRound(oracleInput, currentRound.pad),
         },
       ],
-    }));
+      };
+    });
     setOracleError("");
   };
 

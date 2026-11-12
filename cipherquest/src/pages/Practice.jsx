@@ -53,7 +53,7 @@ function Practice() {
         <p className="eyebrow">Practice Mode</p>
         <h1>Crypto Review Quiz</h1>
         <p>
-          Review concepts from across CipherQuest with immediate explanations
+          Review concepts from across Learn Crypto with immediate explanations
           and direct links back to each lesson.
         </p>
       </div>

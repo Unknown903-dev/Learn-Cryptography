@@ -35,6 +35,10 @@ function App() {
           <Route path="/practice" element={<Practice />} />
         </Routes>
       </main>
+
+      <footer className="site-footer">
+        <p>Learn Crypto was made with AI.</p>
+      </footer>
     </div>
   );
 }
