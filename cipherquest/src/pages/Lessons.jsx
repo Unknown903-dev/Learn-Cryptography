@@ -31,9 +31,9 @@ const lessons = [
     title: "One-Time Pad",
     difficulty: "Intermediate",
     type: "Encryption",
-    description: "Explore why the one-time pad can achieve perfect secrecy.",
-    path: null,
-    status: "Coming Soon",
+    description: "Encrypt with an 8-bit pad and investigate why pads must never be reused.",
+    path: "/one-time-pad",
+    status: "Lab Available",
   },
   {
     title: "EAV Security",

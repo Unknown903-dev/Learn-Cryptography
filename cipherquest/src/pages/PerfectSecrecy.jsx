@@ -351,6 +351,12 @@ function PerfectSecrecy() {
               </p>
             )}
           </div>
+
+          <div className="lesson-navigation">
+            <Link className="btn primary" to="/one-time-pad">
+              Next lesson: One-Time Pad →
+            </Link>
+          </div>
         </div>
       </div>
     </section>
