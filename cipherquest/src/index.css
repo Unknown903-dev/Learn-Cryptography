@@ -69,6 +69,19 @@ button {
   padding: 48px 0 80px;
 }
 
+.site-footer {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 0 0 32px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
 .hero {
   display: grid;
   gap: 56px;
