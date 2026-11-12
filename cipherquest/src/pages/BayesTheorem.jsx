@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function BayesTheorem() {
   return (
     <section>
@@ -20,6 +22,18 @@ function BayesTheorem() {
           Educational note: this page uses simplified probability examples to
           build intuition for cryptographic proofs.
         </p>
+
+        <div className="learning-callout">
+          <h2>Prerequisite: conditional probability</h2>
+          <p>
+            Want to review sample spaces, events, and how a condition changes
+            the denominator?{" "}
+            <Link className="inline-link" to="/probability-basics">
+              Start with Probability Basics
+            </Link>
+            .
+          </p>
+        </div>
 
         <div className="explanation-box">
           <h2>What Bayes theorem tells us</h2>

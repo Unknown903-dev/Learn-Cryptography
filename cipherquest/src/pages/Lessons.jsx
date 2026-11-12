@@ -5,9 +5,9 @@ const lessons = [
     title: "Probability Basics",
     difficulty: "Beginner",
     type: "Foundation",
-    description: "Review probability rules used in cryptographic proofs.",
-    path: null,
-    status: "Coming Soon",
+    description: "Explore sample spaces, events, and conditional probability with dice.",
+    path: "/probability-basics",
+    status: "Lab Available",
   },
   {
     title: "Bayes Theorem",
