@@ -1,11 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title description">
-  <title id="title">Learn Cryptography repository traffic</title>
-  <desc id="description">Traffic collection is configured and awaiting its first run.</desc>
-  <rect width="1000" height="300" rx="18" fill="#080b14"/>
-  <rect x="1" y="1" width="998" height="298" rx="17" fill="none" stroke="#334155"/>
-  <text x="48" y="68" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="28" font-weight="800">Repository traffic</text>
-  <text x="48" y="103" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="16">Views and full clones from GitHub</text>
-  <rect x="48" y="140" width="904" height="104" rx="14" fill="#0f172a" stroke="#334155"/>
-  <text x="500" y="184" fill="#7dd3fc" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Traffic collection is ready</text>
-  <text x="500" y="216" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="15" text-anchor="middle">Run the Collect repository traffic workflow to populate this graph.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title description">
+  <title id="title">Learn Cryptography repository views and clones</title>
+  <desc id="description">Daily GitHub traffic from Nov 9, 2026 through Nov 11, 2026. 0 total views and 4 total clones.</desc>
+  <rect width="1000" height="430" rx="18" fill="#080b14"/>
+  <rect x="1" y="1" width="998" height="428" rx="17" fill="none" stroke="#334155"/>
+  <text x="40" y="48" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="25" font-weight="800">Repository traffic</text>
+  <text x="40" y="76" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Nov 9, 2026 — Nov 11, 2026 · UTC</text>
+  <circle cx="530" cy="46" r="6" fill="#38bdf8"/>
+  <text x="544" y="51" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">Views: 0</text>
+  <circle cx="700" cy="46" r="6" fill="#a855f7"/>
+  <text x="714" y="51" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">Clones: 4</text>
+  <line x1="72" x2="968" y1="368" y2="368" stroke="#334155" stroke-opacity="0.55"/>
+  <text x="58" y="373" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">0</text>
+  <line x1="72" x2="968" y1="307" y2="307" stroke="#334155" stroke-opacity="0.55"/>
+  <text x="58" y="312" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">1</text>
+  <line x1="72" x2="968" y1="246" y2="246" stroke="#334155" stroke-opacity="0.55"/>
+  <text x="58" y="251" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">2</text>
+  <line x1="72" x2="968" y1="185" y2="185" stroke="#334155" stroke-opacity="0.55"/>
+  <text x="58" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">3</text>
+  <line x1="72" x2="968" y1="124" y2="124" stroke="#334155" stroke-opacity="0.55"/>
+  <text x="58" y="129" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">4</text>
+  <text x="72" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 9</text>
+  <text x="520" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 10</text>
+  <text x="968" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 11</text>
+  <polyline points="72.0,368.0 520.0,368.0 968.0,368.0" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="72.0,246.0 520.0,368.0 968.0,246.0" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="72" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 9, 2026: 0 views</title></circle>
+  <circle cx="72" cy="246" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 9, 2026: 2 clones</title></circle>
+  <circle cx="520" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 views</title></circle>
+  <circle cx="520" cy="368" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 clones</title></circle>
+  <circle cx="968" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 0 views</title></circle>
+  <circle cx="968" cy="246" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 2 clones</title></circle>
 </svg>

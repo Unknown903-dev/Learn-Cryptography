@@ -1,7 +1,29 @@
 {
   "repository": "Unknown903-dev/Learn-Cryptography",
   "repositoryStartedAt": "2026-11-09",
-  "collectionStartedAt": null,
-  "updatedAt": "2026-11-12T10:03:03.135Z",
-  "days": []
+  "collectionStartedAt": "2026-11-09",
+  "updatedAt": "2026-11-12T10:05:51.183Z",
+  "days": [
+    {
+      "date": "2026-11-09",
+      "views": 0,
+      "uniqueVisitors": 0,
+      "clones": 2,
+      "uniqueCloners": 2
+    },
+    {
+      "date": "2026-11-10",
+      "views": 0,
+      "uniqueVisitors": 0,
+      "clones": 0,
+      "uniqueCloners": 0
+    },
+    {
+      "date": "2026-11-11",
+      "views": 0,
+      "uniqueVisitors": 0,
+      "clones": 2,
+      "uniqueCloners": 1
+    }
+  ]
 }
