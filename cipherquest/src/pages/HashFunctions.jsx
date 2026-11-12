@@ -7,7 +7,7 @@ import {
 } from "../utils/hash";
 
 const MAX_MESSAGE_LENGTH = 64;
-const TRUSTED_MESSAGE = "Download CipherQuest v1";
+const TRUSTED_MESSAGE = "Download Learn Crypto v1";
 
 function MessageInput({ id, label, value, onChange }) {
   return (
