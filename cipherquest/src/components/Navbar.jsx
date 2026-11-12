@@ -10,6 +10,7 @@ function Navbar() {
 
       <div className="nav-links">
         <NavLink to="/lessons">Lessons</NavLink>
+        <NavLink to="/resources">Resources</NavLink>
         <NavLink to="/bayes-theorem">Bayes</NavLink>
         <NavLink to="/perfect-secrecy">Perfect Secrecy</NavLink>
         <NavLink to="/modes">CBC/CTR</NavLink>
