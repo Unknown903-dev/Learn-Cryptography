@@ -47,9 +47,9 @@ const lessons = [
     title: "CPA Security",
     difficulty: "Advanced",
     type: "Security Game",
-    description: "Understand chosen-plaintext attacks and stronger security.",
-    path: null,
-    status: "Coming Soon",
+    description: "Use an encryption oracle to break a deterministic reused-pad scheme.",
+    path: "/cpa-security",
+    status: "Lab Available",
   },
   {
     title: "CBC Mode",

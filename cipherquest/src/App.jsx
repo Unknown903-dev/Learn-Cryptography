@@ -8,6 +8,7 @@ import PerfectSecrecy from "./pages/PerfectSecrecy";
 import OneTimePad from "./pages/OneTimePad";
 import ModesVisualizer from "./pages/ModesVisualizer";
 import AttackSimulator from "./pages/AttackSimulator";
+import CpaSecurity from "./pages/CpaSecurity";
 import Practice from "./pages/Practice";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/one-time-pad" element={<OneTimePad />} />
           <Route path="/modes" element={<ModesVisualizer />} />
           <Route path="/attack-simulator" element={<AttackSimulator />} />
+          <Route path="/cpa-security" element={<CpaSecurity />} />
           <Route path="/practice" element={<Practice />} />
         </Routes>
       </main>

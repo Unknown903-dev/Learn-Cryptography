@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function sanitizeBinaryInput(value) {
   return value.replace(/[^01]/g, "").slice(0, 32);
@@ -132,6 +133,12 @@ function AttackSimulator() {
             <p>{feedback}</p>
           </div>
         )}
+
+        <div className="lesson-navigation">
+          <Link className="btn primary" to="/cpa-security">
+            Continue to the CPA Security lab →
+          </Link>
+        </div>
       </div>
     </section>
   );
