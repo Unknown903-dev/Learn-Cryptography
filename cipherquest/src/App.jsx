@@ -9,6 +9,8 @@ import OneTimePad from "./pages/OneTimePad";
 import ModesVisualizer from "./pages/ModesVisualizer";
 import AttackSimulator from "./pages/AttackSimulator";
 import CpaSecurity from "./pages/CpaSecurity";
+import Macs from "./pages/Macs";
+import HashFunctions from "./pages/HashFunctions";
 import Practice from "./pages/Practice";
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path="/modes" element={<ModesVisualizer />} />
           <Route path="/attack-simulator" element={<AttackSimulator />} />
           <Route path="/cpa-security" element={<CpaSecurity />} />
+          <Route path="/macs" element={<Macs />} />
+          <Route path="/hash-functions" element={<HashFunctions />} />
           <Route path="/practice" element={<Practice />} />
         </Routes>
       </main>
