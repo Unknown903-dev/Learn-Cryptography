@@ -13,6 +13,7 @@ import CpaSecurity from "./pages/CpaSecurity";
 import Macs from "./pages/Macs";
 import HashFunctions from "./pages/HashFunctions";
 import Practice from "./pages/Practice";
+import Resources from "./pages/Resources";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/macs" element={<Macs />} />
           <Route path="/hash-functions" element={<HashFunctions />} />
           <Route path="/practice" element={<Practice />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </main>
 
