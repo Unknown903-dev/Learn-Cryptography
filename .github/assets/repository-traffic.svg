@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title description">
   <title id="title">Learn Cryptography repository views and clones</title>
-  <desc id="description">Daily GitHub traffic from Nov 9, 2026 through Nov 26, 2026. 138 total views and 457 total clones.</desc>
+  <desc id="description">Daily GitHub traffic from Nov 9, 2026 through Nov 27, 2026. 138 total views and 462 total clones.</desc>
   <rect width="1000" height="430" rx="18" fill="#080b14"/>
   <rect x="1" y="1" width="998" height="428" rx="17" fill="none" stroke="#334155"/>
   <text x="40" y="48" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="25" font-weight="800">Repository traffic</text>
-  <text x="40" y="76" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Nov 9, 2026 — Nov 26, 2026 · UTC</text>
+  <text x="40" y="76" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Nov 9, 2026 — Nov 27, 2026 · UTC</text>
   <circle cx="530" cy="46" r="6" fill="#38bdf8"/>
   <text x="544" y="51" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">Views: 138</text>
   <circle cx="700" cy="46" r="6" fill="#a855f7"/>
-  <text x="714" y="51" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">Clones: 457</text>
+  <text x="714" y="51" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">Clones: 462</text>
   <line x1="72" x2="968" y1="368" y2="368" stroke="#334155" stroke-opacity="0.55"/>
   <text x="58" y="373" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">0</text>
   <line x1="72" x2="968" y1="307" y2="307" stroke="#334155" stroke-opacity="0.55"/>
@@ -20,48 +20,49 @@
   <line x1="72" x2="968" y1="124" y2="124" stroke="#334155" stroke-opacity="0.55"/>
   <text x="58" y="129" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="end">176</text>
   <text x="72" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 9</text>
-  <text x="230.11764705882354" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 12</text>
-  <text x="388.2352941176471" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 15</text>
-  <text x="546.3529411764706" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 18</text>
-  <text x="704.4705882352941" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 21</text>
-  <text x="862.5882352941176" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 24</text>
-  <text x="968" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 26</text>
-  <polyline points="72.0,368.0 124.7,368.0 177.4,368.0 230.1,223.8 282.8,330.6 335.5,368.0 388.2,368.0 440.9,359.7 493.6,368.0 546.4,368.0 599.1,368.0 651.8,368.0 704.5,368.0 757.2,368.0 809.9,368.0 862.6,368.0 915.3,366.6 968.0,368.0" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="72.0,365.2 124.7,368.0 177.4,365.2 230.1,125.4 282.8,290.4 335.5,282.0 388.2,363.8 440.9,363.8 493.6,365.2 546.4,347.2 599.1,365.2 651.8,365.2 704.5,307.0 757.2,338.9 809.9,359.7 862.6,358.3 915.3,298.7 968.0,361.1" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="271.1111111111111" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 13</text>
+  <text x="470.2222222222222" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 17</text>
+  <text x="669.3333333333333" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 21</text>
+  <text x="868.4444444444443" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 25</text>
+  <text x="968" y="406" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Nov 27</text>
+  <polyline points="72.0,368.0 121.8,368.0 171.6,368.0 221.3,223.8 271.1,330.6 320.9,368.0 370.7,368.0 420.4,359.7 470.2,368.0 520.0,368.0 569.8,368.0 619.6,368.0 669.3,368.0 719.1,368.0 768.9,368.0 818.7,368.0 868.4,366.6 918.2,368.0 968.0,368.0" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="72.0,365.2 121.8,368.0 171.6,365.2 221.3,125.4 271.1,290.4 320.9,282.0 370.7,363.8 420.4,363.8 470.2,365.2 520.0,347.2 569.8,365.2 619.6,365.2 669.3,307.0 719.1,338.9 768.9,359.7 818.7,358.3 868.4,298.7 918.2,361.1 968.0,361.1" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="72" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 9, 2026: 0 views</title></circle>
   <circle cx="72" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 9, 2026: 2 clones</title></circle>
-  <circle cx="124.70588235294117" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 views</title></circle>
-  <circle cx="124.70588235294117" cy="368" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 clones</title></circle>
-  <circle cx="177.41176470588235" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 0 views</title></circle>
-  <circle cx="177.41176470588235" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 2 clones</title></circle>
-  <circle cx="230.11764705882354" cy="223.8181818181818" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 12, 2026: 104 views</title></circle>
-  <circle cx="230.11764705882354" cy="125.38636363636365" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 12, 2026: 175 clones</title></circle>
-  <circle cx="282.8235294117647" cy="330.5681818181818" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 13, 2026: 27 views</title></circle>
-  <circle cx="282.8235294117647" cy="290.3636363636364" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 13, 2026: 56 clones</title></circle>
-  <circle cx="335.5294117647059" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 14, 2026: 0 views</title></circle>
-  <circle cx="335.5294117647059" cy="282.04545454545456" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 14, 2026: 62 clones</title></circle>
-  <circle cx="388.2352941176471" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 15, 2026: 0 views</title></circle>
-  <circle cx="388.2352941176471" cy="363.84090909090907" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 15, 2026: 3 clones</title></circle>
-  <circle cx="440.94117647058823" cy="359.6818181818182" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 16, 2026: 6 views</title></circle>
-  <circle cx="440.94117647058823" cy="363.84090909090907" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 16, 2026: 3 clones</title></circle>
-  <circle cx="493.6470588235294" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 17, 2026: 0 views</title></circle>
-  <circle cx="493.6470588235294" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 17, 2026: 2 clones</title></circle>
-  <circle cx="546.3529411764706" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 18, 2026: 0 views</title></circle>
-  <circle cx="546.3529411764706" cy="347.20454545454544" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 18, 2026: 15 clones</title></circle>
-  <circle cx="599.0588235294118" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 19, 2026: 0 views</title></circle>
-  <circle cx="599.0588235294118" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 19, 2026: 2 clones</title></circle>
-  <circle cx="651.7647058823529" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 20, 2026: 0 views</title></circle>
-  <circle cx="651.7647058823529" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 20, 2026: 2 clones</title></circle>
-  <circle cx="704.4705882352941" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 21, 2026: 0 views</title></circle>
-  <circle cx="704.4705882352941" cy="307" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 21, 2026: 44 clones</title></circle>
-  <circle cx="757.1764705882352" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 22, 2026: 0 views</title></circle>
-  <circle cx="757.1764705882352" cy="338.8863636363636" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 22, 2026: 21 clones</title></circle>
-  <circle cx="809.8823529411765" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 23, 2026: 0 views</title></circle>
-  <circle cx="809.8823529411765" cy="359.6818181818182" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 23, 2026: 6 clones</title></circle>
-  <circle cx="862.5882352941176" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 24, 2026: 0 views</title></circle>
-  <circle cx="862.5882352941176" cy="358.29545454545456" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 24, 2026: 7 clones</title></circle>
-  <circle cx="915.2941176470588" cy="366.6136363636364" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 25, 2026: 1 views</title></circle>
-  <circle cx="915.2941176470588" cy="298.6818181818182" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 25, 2026: 50 clones</title></circle>
-  <circle cx="968" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 26, 2026: 0 views</title></circle>
-  <circle cx="968" cy="361.0681818181818" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 26, 2026: 5 clones</title></circle>
+  <circle cx="121.77777777777777" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 views</title></circle>
+  <circle cx="121.77777777777777" cy="368" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 10, 2026: 0 clones</title></circle>
+  <circle cx="171.55555555555554" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 0 views</title></circle>
+  <circle cx="171.55555555555554" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 11, 2026: 2 clones</title></circle>
+  <circle cx="221.33333333333331" cy="223.8181818181818" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 12, 2026: 104 views</title></circle>
+  <circle cx="221.33333333333331" cy="125.38636363636365" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 12, 2026: 175 clones</title></circle>
+  <circle cx="271.1111111111111" cy="330.5681818181818" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 13, 2026: 27 views</title></circle>
+  <circle cx="271.1111111111111" cy="290.3636363636364" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 13, 2026: 56 clones</title></circle>
+  <circle cx="320.8888888888889" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 14, 2026: 0 views</title></circle>
+  <circle cx="320.8888888888889" cy="282.04545454545456" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 14, 2026: 62 clones</title></circle>
+  <circle cx="370.66666666666663" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 15, 2026: 0 views</title></circle>
+  <circle cx="370.66666666666663" cy="363.84090909090907" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 15, 2026: 3 clones</title></circle>
+  <circle cx="420.44444444444446" cy="359.6818181818182" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 16, 2026: 6 views</title></circle>
+  <circle cx="420.44444444444446" cy="363.84090909090907" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 16, 2026: 3 clones</title></circle>
+  <circle cx="470.2222222222222" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 17, 2026: 0 views</title></circle>
+  <circle cx="470.2222222222222" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 17, 2026: 2 clones</title></circle>
+  <circle cx="520" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 18, 2026: 0 views</title></circle>
+  <circle cx="520" cy="347.20454545454544" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 18, 2026: 15 clones</title></circle>
+  <circle cx="569.7777777777778" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 19, 2026: 0 views</title></circle>
+  <circle cx="569.7777777777778" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 19, 2026: 2 clones</title></circle>
+  <circle cx="619.5555555555557" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 20, 2026: 0 views</title></circle>
+  <circle cx="619.5555555555557" cy="365.22727272727275" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 20, 2026: 2 clones</title></circle>
+  <circle cx="669.3333333333333" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 21, 2026: 0 views</title></circle>
+  <circle cx="669.3333333333333" cy="307" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 21, 2026: 44 clones</title></circle>
+  <circle cx="719.1111111111111" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 22, 2026: 0 views</title></circle>
+  <circle cx="719.1111111111111" cy="338.8863636363636" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 22, 2026: 21 clones</title></circle>
+  <circle cx="768.8888888888889" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 23, 2026: 0 views</title></circle>
+  <circle cx="768.8888888888889" cy="359.6818181818182" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 23, 2026: 6 clones</title></circle>
+  <circle cx="818.6666666666667" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 24, 2026: 0 views</title></circle>
+  <circle cx="818.6666666666667" cy="358.29545454545456" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 24, 2026: 7 clones</title></circle>
+  <circle cx="868.4444444444443" cy="366.6136363636364" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 25, 2026: 1 views</title></circle>
+  <circle cx="868.4444444444443" cy="298.6818181818182" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 25, 2026: 50 clones</title></circle>
+  <circle cx="918.2222222222222" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 26, 2026: 0 views</title></circle>
+  <circle cx="918.2222222222222" cy="361.0681818181818" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 26, 2026: 5 clones</title></circle>
+  <circle cx="968" cy="368" r="4" fill="#38bdf8" stroke="#020617" stroke-width="2"><title>Nov 27, 2026: 0 views</title></circle>
+  <circle cx="968" cy="361.0681818181818" r="4" fill="#a855f7" stroke="#020617" stroke-width="2"><title>Nov 27, 2026: 5 clones</title></circle>
 </svg>
